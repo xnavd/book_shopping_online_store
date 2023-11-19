@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  background-color: repeating-linear-gradient(45deg, #f7f5fb, #909cc2, #084887, #f58a07, #f9ab55);
+}
